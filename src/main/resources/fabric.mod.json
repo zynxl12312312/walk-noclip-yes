@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "walknoclip",
+  "version": "${version}",
+  "name": "Walk Noclip",
+  "description": "Client-side noclip: walk through walls while standing on the floor. Toggle with N (creative mode only).",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.walknoclip.WalkNoclipClient"]
+  },
+  "mixins": ["walknoclip.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

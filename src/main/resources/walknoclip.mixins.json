@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.example.walknoclip.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "EntityMixin",
+    "LocalPlayerMixin",
+    "ScreenEffectRendererMixin",
+    "ServerPacketListenerMixin",
+    "ServerPlayerMixin",
+    "ClientPacketListenerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
